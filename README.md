@@ -41,7 +41,8 @@ def choosing_information(shown_possible_choices):
             pass
         return user_choice
 ```
-If user choice cannot be transformed into int type (that means user wants to search information not by number, but name) then exception is raised 
+If user choice cannot be transformed into int type (that means user wants to search information not by number, but name) then exception is raised.
+- <!> User also may write ```"back"``` in order to choose previous information
 ## printing_or_navigating()
 This function takes the element which is dictionary or list and makes user make a decision whether to print information out, or to navigate it. If user desides to print information returns True, if not then returns False. If user misspelled the word, recalls the function
 ```python
